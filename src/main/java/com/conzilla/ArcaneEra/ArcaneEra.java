@@ -2,8 +2,10 @@ package com.conzilla.ArcaneEra;
 
 import org.apache.logging.log4j.Logger;
 
+import com.conzilla.ArcaneEra.tabs.Modtab;
 import com.conzilla.ArcaneEra.util.Refrence;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -17,7 +19,7 @@ public class ArcaneEra
     @SidedProxy(clientSide = "com.conzilla.ArcaneEra.proxy.ClientProxy" ,serverSide = "com.eternal_plasma.smep.proxy.CommonProxy")
     public static com.conzilla.ArcaneEra.proxy.CommonProxy proxy;
 
-
+    public static final CreativeTabs MODTAB = new Modtab("modtab.png");
 
 
     @SuppressWarnings("unused")
