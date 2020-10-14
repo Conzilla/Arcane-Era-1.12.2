@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.conzilla.ArcaneEra.blocks.Admantite_Ore;
-import com.conzilla.ArcaneEra.blocks.BlockBase;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

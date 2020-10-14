@@ -2,8 +2,6 @@ package com.conzilla.ArcaneEra.util;
 
 import com.conzilla.ArcaneEra.ArcaneEra;
 import com.conzilla.ArcaneEra.init.ModItems;
-
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel
