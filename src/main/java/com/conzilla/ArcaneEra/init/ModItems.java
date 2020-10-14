@@ -14,7 +14,7 @@ public class ModItems
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	public static final Item ADMANTITE_INGOT = new ItemBase("admantite_ingot");
-	public static final ToolMaterial MATERIAL_ADMANTITE = EnumHelper.addToolMaterial("material_admantite",3,1570,10.0F,4.0F,22);
+	public static final ToolMaterial MATERIAL_ADMANTITE = EnumHelper.addToolMaterial("material_admantite",3,1570,10.0F,5.0F,22);
 	
 	public static final ItemSword ADMANTITE_SWORD = new ToolSword("admantite_sword", MATERIAL_ADMANTITE);
 }
