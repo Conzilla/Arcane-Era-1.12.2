@@ -13,11 +13,16 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
+@SuppressWarnings("unused")
 public class ModItems 
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
+	//item
 	public static final Item ADMANTITE_INGOT = new ItemBase("admantite_ingot");
 	public static final Item MYTHRIL_GEM = new ItemBase("mythril_gem");
+	
+	
+	//swords
 	public static final ToolMaterial MATERIAL_ADMANTITE = EnumHelper.addToolMaterial("material_admantite",3,1570,10.0F,5.0F,22);
 	public static final ToolMaterial MATERIAL_MYTHRIL = EnumHelper.addToolMaterial("material_admantite",3,2000,10.0F,6.0F,10);
 	
