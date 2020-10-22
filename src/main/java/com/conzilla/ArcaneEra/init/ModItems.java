@@ -20,7 +20,7 @@ public class ModItems
 	//item
 	public static final Item ADMANTITE_INGOT = new ItemBase("admantite_ingot");
 	public static final Item MYTHRIL_GEM = new ItemBase("mythril_gem");
-	
+	public static final Item ORICHALCUM_INGOT = new ItemBase("orichalcum_ingot");
 	
 	//swords
 	public static final ToolMaterial MATERIAL_ADMANTITE = EnumHelper.addToolMaterial("material_admantite",3,1570,10.0F,5.0F,22);
